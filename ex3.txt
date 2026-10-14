@@ -1,0 +1,24 @@
+
+Tài liệu này cung cấp hướng dẫn chi tiết từng bước giúp bạn cài đặt và cấu hình **VS Code** để sẵn sàng cho quá trình học tập tại lớp.
+1. Báo cáo phân tích (Input & Output)
+| Thành phần | Mô tả chi tiết |
+| :--- | :--- |
+| **Input (Văn bản thô)** | Nội dung viết bằng cú pháp Markdown thông thường (chứa các ký tự `#`, `*`, `` ` ``, cấu trúc bảng và danh sách công việc). |
+| **Output (Render đẹp mắt)** | Giao diện hiển thị trực quan, có định dạng tiêu đề rõ ràng, phân biệt màu sắc code (`Syntax Highlighting`), bảng biểu căn chỉnh và danh sách tích chọn tiến độ. |
+2. Các bước cài đặt cơ bản
+1. Truy cập trang chủ để tải phần mềm: `https://code.visualstudio.com/`
+2. Chạy file cài đặt vừa tải về và làm theo hướng dẫn trên màn hình (Next -> Next -> Install).
+3. Mở Terminal và kiểm tra phiên bản cài đặt bằng lệnh xác thực.
+Ví dụ mã nguồn kiểm tra môi trường Python (Script mẫu)
+Dưới đây là đoạn code Python minh họa cấu hình môi trường làm việc:
+```python
+# Kiểm tra phiên bản Python và môi trường hoạt động
+import sys
+def check_environment():
+    print("--- CHÀO MỪNG BẠN ĐẾN VỚI LỚP HỌC LẬP TRÌNH ---")
+    print(f"Phiên bản Python hiện tại: {sys.version}")
+    print("Môi trường VS Code đã sẵn sàng!")
+if __name__ == "__main__":
+    check_environment()
+3. Bảng so sánh công cụ: StackEdit vs VS CodeTiêu chíStackEditVisual Studio Code (VS Code)Môi trường hoạt độngTrình duyệt Web (Cloud-based)Phần mềm cài đặt trực tiếp trên máy tính (Desktop App)Tính năng chínhSoạn thảo văn bản Markdown nhanh chóng, đồng bộ đám mâySoạn thảo, quản lý dự án lớn, hỗ trợ đa ngôn ngữ lập trình, DebugTiện ích mở rộng (Extensions)Hạn chếCực kỳ phong phú (Python, Git, Docker,...)Khả năng làm việc offlineHạn chếToàn diện (Không cần internet vẫn code tốt)
+4. Task List - Kiểm tra tiến độ cài đặt[x] Tải và cài đặt thành công Visual Studio Code[ ] Thêm biến môi trường (Optional: Add to PATH)[x] Kiểm tra thành công lệnh code --version trên Terminal[ ] Cài đặt các Extensions cơ bản (Python, Prettier, GitLens)[ ] Hoàn thành bài tập thực hành trên lớpLưu ý (*): Sử dụng ký tự Escape như \* hoặc \# khi bạn muốn hiển thị các ký tự đặc biệt của Markdown mà không bị hệ thống tự động render.
